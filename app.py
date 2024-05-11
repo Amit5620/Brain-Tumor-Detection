@@ -1,22 +1,12 @@
 import streamlit as st
-from pathlib import Path
-import pickle as pkl
 from PIL import Image
-import os
 import numpy as np
-import pandas as pd
 import cv2
 import tensorflow as tf
 from IPython.display import display
 import matplotlib as mpl
-import matplotlib.pyplot as plt
 import tensorflow as tf
 import tensorflow.keras as keras
-import seaborn as sns
-from skimage.io import imread, imsave
-from skimage.transform import resize
-from sklearn.model_selection import train_test_split
-import tensorflow.keras.backend as K
 import matplotlib.image as img
 from tensorflow.keras.models import load_model
 
